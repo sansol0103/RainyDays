@@ -1,0 +1,9 @@
+header footer {
+  background-color: #58acc1;
+  font-family: "Roboto";
+}
+
+nav li {
+  display: inline-block;
+  color: "#0a3641";
+}
