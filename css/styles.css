@@ -1,4 +1,5 @@
-header footer {
+header,
+footer {
   background-color: #58acc1;
   font-family: "Roboto";
 }
@@ -6,4 +7,13 @@ header footer {
 nav li {
   display: inline-block;
   color: "#0a3641";
+}
+
+main {
+  background: url(../images/jonathan-klok-NeRzxya_zyI-unsplash.jpg);
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
 }
