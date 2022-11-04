@@ -1,19 +1,67 @@
+body {
+  margin: 0px;
+  display: grid;
+  align-items: center;
+}
+
 header,
 footer {
   background-color: #58acc1;
   font-family: "Roboto";
 }
 
+h1 {
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0px;
+  color: #0a3641;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+}
+
+header img {
+  width: 70px;
+  height: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav {
+  display: none;
+  position: fixed;
+  top: 48px;
+  right: 0px;
+  background: #0a3641;
+}
+
 nav li {
-  display: inline-block;
-  color: "#0a3641";
+  padding: 10px 20px;
+  margin: 0px;
+  text-align: center;
+  display: block;
+  font-size: 2rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
 }
 
 main {
   background: url(../images/jonathan-klok-NeRzxya_zyI-unsplash.jpg);
-}
-
-img {
-  max-width: 100%;
-  border-radius: 10px;
+  background-repeat: no-repeat;
 }

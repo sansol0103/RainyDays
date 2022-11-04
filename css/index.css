@@ -1,0 +1,26 @@
+.home-images-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.home-images {
+  text-align: center;
+  font-family: "Roboto";
+  padding: 25px;
+  background-color: #d9d9d9;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.home-images p {
+  text-align: left;
+  max-width: 201px;
+}
+
+img {
+  width: 201px;
+  height: 201px;
+  border-radius: 10px;
+}

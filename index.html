@@ -6,15 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Get high quality jackets at Rainy Days" />
     <title>Rainy Days | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script
+      src="https://kit.fontawesome.com/b318972c4d.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
-      <h1>Pushing the Confort Zone</h1>
+      <img src="images/RainyDays_Logo.png" alt="Rainy Days logo" />
+      <h1>Pushing the Comfort Zone</h1>
+      <label for="hamburger-menu"><i class="fa-solid fa-bars"></i></label>
+      <input type="checkbox" name="" id="hamburger-menu" />
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -25,8 +35,8 @@
       </nav>
     </header>
     <main>
-      <div>
-        <section>
+      <div class="home-images-container">
+        <section class="home-images">
           <img
             src="images/adilet-asilbekov-vjLFc8ErKfw-unsplash.jpg"
             alt="Man walking through woods"
@@ -35,7 +45,7 @@
             A Rainy Days jacket is the perfect adddition to your camping trips!
           </p>
         </section>
-        <section>
+        <section class="home-images">
           <img
             src="images/david-kovalenko-9-qFzV9a2Zc-unsplash.jpg"
             alt="Cabin in the woods"
@@ -45,7 +55,7 @@
             to keep warm
           </p>
         </section>
-        <section>
+        <section class="home-images">
           <img
             src="images/tegan-mierle-fDostElVhN8-unsplash.jpg"
             alt="Friends around campfire"
