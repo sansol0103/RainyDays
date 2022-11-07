@@ -1,0 +1,55 @@
+input,
+textarea {
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+textarea {
+  min-height: 220px;
+}
+
+.form-wrapper {
+  font-family: "Roboto";
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  background-color: #d9d9d9;
+  text-align: left;
+  max-width: 280px;
+}
+
+.form-wrapper > * {
+  display: flex;
+  flex: 1;
+  text-align: left;
+  flex-direction: column;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #d9d9d9;
+  margin: 20px auto;
+  border-radius: 10px;
+  font-family: "Roboto";
+  max-width: 280px;
+}
+
+.contact-cta {
+  font-family: "Roboto";
+  font-size: 1.5rem;
+  margin: auto;
+  background-color: #c2c2c2;
+  color: #fff;
+  border-radius: 10px;
+  opacity: 50%;
+}
+
+.contact-cta:hover {
+  opacity: 100%;
+  background-color: #4ee05d;
+  border: 2px solid #000;
+}

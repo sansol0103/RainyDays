@@ -1,13 +1,17 @@
 body {
   margin: 0px;
   display: grid;
-  align-items: center;
 }
 
 header,
 footer {
   background-color: #58acc1;
   font-family: "Roboto";
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
 }
 
 h1 {
@@ -64,4 +68,5 @@ nav a {
 main {
   background: url(../images/jonathan-klok-NeRzxya_zyI-unsplash.jpg);
   background-repeat: no-repeat;
+  min-height: 690px;
 }

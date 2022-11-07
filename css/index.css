@@ -24,3 +24,21 @@ img {
   height: 201px;
   border-radius: 10px;
 }
+
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing-cta {
+  padding: 8px 20px;
+  background-color: #0a3641;
+  margin: 20px;
+  color: #fff;
+  font-family: "Roboto";
+  text-decoration: none;
+  font-size: 1.5rem;
+  min-width: 200px;
+  text-align: center;
+}

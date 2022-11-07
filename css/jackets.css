@@ -1,0 +1,42 @@
+div img {
+  position: relative;
+  max-width: 200px;
+  max-height: 200px;
+  text-align: center;
+  left: 50px;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.product {
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #d2d2d2;
+  min-width: 280px;
+  font-family: "Roboto";
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+
+.old-price {
+  color: red;
+  text-decoration: line-through;
+}
+
+.product a {
+  padding: 8px 30px;
+  background-color: #c2c2c2;
+  border: 2px solid #000;
+  border-radius: 10px;
+  margin: 10px;
+  text-decoration: none;
+  font-family: "Roboto";
+  color: black;
+}
+
+.product a:hover {
+  background-color: #4ee05d;
+}
