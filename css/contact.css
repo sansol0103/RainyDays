@@ -38,6 +38,27 @@ textarea {
   max-width: 280px;
 }
 
+.icons {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.fa-brands {
+  font-size: 1.5em;
+}
+
+.info img {
+  border-radius: 50%;
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.close-paragraph {
+  line-height: 0.2;
+}
+
 .contact-cta {
   font-family: "Roboto";
   font-size: 1.5rem;
