@@ -32,8 +32,6 @@ header {
 header img {
   width: 70px;
   height: 35px;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 nav {
@@ -58,6 +56,10 @@ nav a {
   text-decoration: none;
 }
 
+.fa-bars {
+  font-size: 1.2rem;
+}
+
 #hamburger-menu {
   display: none;
 }
@@ -70,4 +72,26 @@ main {
   background: url(../images/jonathan-klok-NeRzxya_zyI-unsplash.jpg);
   background-repeat: no-repeat;
   min-height: 690px;
+}
+
+.div-style {
+  font-family: "Roboto";
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  background-color: #d9d9d9;
+  text-align: left;
+  max-width: 280px;
+}
+
+.cta {
+  text-decoration: none;
+  padding: 8px 20px;
+  color: black;
+}
+
+.fa-circle-left {
+  font-size: 1.5rem;
+  color: black;
+  padding: 5px 10px;
 }
