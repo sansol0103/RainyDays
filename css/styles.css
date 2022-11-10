@@ -56,10 +56,6 @@ nav a {
   font-family: "Raleway", "Roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.hover:hover {
-  background-color: #fff;
-}
-
 .fa-bars {
   font-size: 1.2rem;
 }
