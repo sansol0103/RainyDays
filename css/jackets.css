@@ -3,7 +3,6 @@ div img {
   max-width: 200px;
   max-height: 200px;
   text-align: center;
-  left: 50px;
 }
 
 .product-list {
@@ -24,6 +23,10 @@ div img {
 .old-price {
   color: red;
   text-decoration: line-through;
+}
+
+p {
+  overflow-wrap: break-word;
 }
 
 .product a {

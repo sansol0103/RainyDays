@@ -25,8 +25,7 @@ header {
   align-items: center;
   margin: 0px;
   color: #0a3641;
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
+  border-bottom: 1px solid #000;
 }
 
 header img {
@@ -54,6 +53,11 @@ nav li {
 nav a {
   color: #fff;
   text-decoration: none;
+  font-family: "Raleway", "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hover:hover {
+  background-color: #fff;
 }
 
 .fa-bars {
@@ -71,10 +75,10 @@ nav a {
 main {
   background: url(../images/jonathan-klok-NeRzxya_zyI-unsplash.jpg);
   background-repeat: no-repeat;
-  min-height: 690px;
+  min-height: 100vh;
 }
 
-.div-style {
+.box-style {
   font-family: "Roboto";
   padding: 20px;
   margin: 20px auto;

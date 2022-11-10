@@ -1,5 +1,93 @@
 @media (min-width: 600px) {
+  .product-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .product {
+    min-width: 220px;
+    inline-size: 220px;
+  }
+
+  .box-style {
+    max-width: 500px;
+  }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 800px) {
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  header img,
+  h1 {
+    padding-left: 20px;
+  }
+
+  nav {
+    display: block;
+    position: static;
+    width: 100%;
+    background-color: #58acc1;
+    border-top: 1px solid #000;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    margin: auto;
+  }
+
+  nav li {
+    display: flex;
+    flex: 1;
+    font-size: 1.5rem;
+    padding: 0px;
+    border: 1px solid;
+  }
+
+  nav a {
+    color: #000;
+    background-color: #58acc1;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .current {
+    background-color: #707070;
+    opacity: 0.9;
+    color: #fff;
+  }
+
+  header label {
+    display: none;
+  }
+
+  .box-style {
+    margin-top: 100px;
+    max-width: 700px;
+  }
+
+  /*Home page*/
+  .cta-container {
+    display: none;
+  }
+
+  .home-images-container {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 200px;
+  }
+
+  .home-images {
+    min-height: 313px;
+    margin: auto;
+  }
+
+  /*Jackets page*/
+
+  .product-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
