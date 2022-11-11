@@ -4,6 +4,7 @@ textarea {
   border-radius: 5px;
   margin: 10px;
   padding: 10px;
+  max-width: 238px;
 }
 
 textarea {
@@ -64,7 +65,6 @@ textarea {
   font-size: 1.5rem;
   margin: auto;
   background-color: #c2c2c2;
-  color: #fff;
   border-radius: 10px;
   border: 2px solid #000;
   text-transform: uppercase;
