@@ -42,3 +42,20 @@ img {
   min-width: 200px;
   text-align: center;
 }
+
+@media (min-width: 800px) {
+  .cta-container {
+    display: none;
+  }
+
+  .home-images-container {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 200px;
+  }
+
+  .home-images {
+    min-height: 313px;
+    margin: auto;
+  }
+}

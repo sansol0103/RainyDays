@@ -69,7 +69,7 @@ nav a {
 }
 
 main {
-  background: url(../images/jonathan-klok-NeRzxya_zyI-unsplash.jpg);
+  background: url(../images/jonathan-klok-NeRzxya_zyI-unsplash\(1\).webp);
   background-repeat: no-repeat;
   min-height: 100vh;
 }
@@ -88,6 +88,13 @@ main {
   text-decoration: none;
   padding: 8px 20px;
   color: black;
+  background-color: #999999;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cta:hover {
+  background-color: #4ee05d;
 }
 
 .fa-circle-left {

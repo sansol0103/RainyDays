@@ -63,6 +63,7 @@ img {
   width: 200px;
   height: 200px;
 }
+
 .form-wrapper {
   font-family: "Roboto";
   padding: 20px;
@@ -83,8 +84,22 @@ img {
   max-height: 600px;
 }
 
-.cta {
-  background-color: #999999;
-  border-radius: 10px;
-  text-align: center;
+@media (min-width: 600px) {
+  .box-style {
+    max-width: 280px;
+  }
+}
+
+@media (min-width: 800px) {
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .box-style,
+  .form-wrapper {
+    min-width: 320px;
+    min-height: 450px;
+    margin: 20px auto;
+  }
 }

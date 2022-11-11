@@ -1,13 +1,4 @@
 @media (min-width: 600px) {
-  .product-list {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .product {
-    min-width: 220px;
-    inline-size: 220px;
-  }
-
   .box-style {
     max-width: 500px;
   }
@@ -71,27 +62,5 @@
   .box-style {
     margin-top: 100px;
     max-width: 700px;
-  }
-
-  /*Home page*/
-  .cta-container {
-    display: none;
-  }
-
-  .home-images-container {
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 200px;
-  }
-
-  .home-images {
-    min-height: 313px;
-    margin: auto;
-  }
-
-  /*Jackets page*/
-
-  .product-list {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }

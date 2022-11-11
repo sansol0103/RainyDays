@@ -10,14 +10,9 @@ div img {
   grid-template-columns: 1fr;
 }
 
-.product {
-  padding: 20px;
-  margin: 20px auto;
-  background-color: #d2d2d2;
-  min-width: 280px;
-  font-family: "Roboto";
+.box-style {
   font-size: 1.2rem;
-  border-radius: 10px;
+  min-width: 280px;
 }
 
 .old-price {
@@ -28,7 +23,7 @@ p {
   overflow-wrap: break-word;
 }
 
-.product a {
+.box-style a {
   padding: 8px 30px;
   background-color: #c2c2c2;
   border: 2px solid #000;
@@ -39,6 +34,23 @@ p {
   color: black;
 }
 
-.product a:hover {
+.box-style a:hover {
   background-color: #4ee05d;
+}
+
+@media (min-width: 600px) {
+  .product-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .box-style {
+    min-width: 220px;
+    inline-size: 220px;
+  }
+}
+
+@media (min-width: 800px) {
+  .product-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
