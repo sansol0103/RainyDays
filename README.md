@@ -1,40 +1,37 @@
 # Project Title
 
-A simple overview of use/purpose.
+Rainy Days Course Assignment
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This is my course assignement making the Rainy Days course assignment in HTML and CSS
+
+## Design Changes
+
+There have been a few design changes from the prototype. All text that was previously Archivo has been changed to Roboto for simplicity. Added CTA buttons to the landing page, as that was something pointed out on the design CA. The form elements were changed. It was originally floating buttons, but was changed to be a single block which in my opinion, looks better and more consistent. 
 
 ## Getting Started
 
 ### Dependencies
 
-- Describe any prerequisites, libraries, OS version, etc., needed before installing the program.
-- ex. Windows 10
+No required dependencies
 
 ### Installing
 
-- How/where to download your program
-- Any modifications needed to be made to files/folders
+Open from netlify: https://voluble-selkie-564a0c.netlify.app/
+Link to Figma prototype: https://www.figma.com/file/n3UFtH6GECiyOejRPlJTX3/Rainy-Days---CA?node-id=0%3A1&t=TTlntwruYzlVpOO8-1
 
 ### Executing program
 
-- hosted link
-
-OR
-
-- How to run the program
-- Step-by-step bullets
-
-code blocks for commands
+Not relevant
 
 ## Help
 
-Any advice for common problems or issues.
-
-- command to run if the program contains helper info
+Font in the header nav is Raleway. Should default to Verdana if Raleway isn't installed
 
 ## Authors
 
-Contributors' names and contact info
+Me, Sander Solberg
+Icons come from FontAwesome
+I've used MDN as a source for code
+All code is written by me
