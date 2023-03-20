@@ -22,9 +22,8 @@ h3 {
   border-radius: 10px;
   max-width: 140px;
   position: relative;
-  right: -107px;
-  top: -171px;
   z-index: 100;
+  font-size: 1.2rem;
 }
 
 .ammount {

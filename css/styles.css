@@ -1,6 +1,5 @@
 body {
   margin: 0px;
-  display: grid;
 }
 
 header,
@@ -14,9 +13,10 @@ footer {
   text-align: center;
 }
 
-h1 {
+header p {
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  margin-left: 10px;
 }
 
 header {
@@ -36,7 +36,7 @@ header img {
 nav {
   display: none;
   position: fixed;
-  top: 48px;
+  top: 57px;
   right: 0px;
   background: #0a3641;
   z-index: 10;
@@ -69,19 +69,17 @@ nav a {
 }
 
 main {
-  background: url(../images/jonathan-klok-NeRzxya_zyI-unsplash\(1\).webp);
-  background-repeat: no-repeat;
-  min-height: 100vh;
+  overflow: hidden;
+  background: #d9d9d9;
 }
 
 .box-style {
   font-family: "Roboto";
-  padding: 20px;
   margin: 20px auto;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: #d9d9d9;
   text-align: left;
-  max-width: 280px;
+  width: 100%;
 }
 
 .cta {
@@ -91,6 +89,7 @@ main {
   background-color: #999999;
   border-radius: 10px;
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .cta:hover {
