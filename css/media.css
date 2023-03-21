@@ -26,7 +26,7 @@
     min-height: 100vh;
   }
 
-  .home-images-container {
+  .box-width {
     margin: 50px auto;
     width: 60%;
   }
@@ -125,17 +125,20 @@
     margin-top: 100px;
   }
 
+  .box-width {
+    width: 90%;
+    max-width: 1000px;
+  }
+
   /*index.html*/
 
-  .home-heading {
+  h1 {
     grid-column: 1/4;
   }
 
   .home-images-container {
     grid-template-rows: 100% 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 90%;
-    max-width: 1000px;
   }
 
   .home-image-div {
@@ -147,5 +150,16 @@
   .home-images {
     width: 200px;
     height: 200px;
+  }
+}
+
+/*about.html*/
+
+/*contact.html*/
+
+@media (min-width: 800px) {
+  .contact {
+    display: flex;
+    flex-direction: row;
   }
 }

@@ -63,7 +63,7 @@
       </nav>
     </header>
     <main class="contact">
-      <section class="box-style info">
+      <div class="box-style info">
         <div>
           <p>+47 21 22 43 16</p>
           <div class="close-paragraph">
@@ -73,29 +73,45 @@
           <p>support@rainydays.com</p>
         </div>
         <div class="icons">
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-twitter"></i>
+          <a href="https://instagram.com"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://facebook.com"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
         </div>
         <img src="images/map.png" alt="Location map" />
-      </section>
+      </div>
       <form method="post">
-        <section class="box-style form-wrapper">
+        <div class="box-style form-wrapper">
           <div>
             <label for="Full name">Full name</label>
-            <input type="text" name="Full name" id="Full name" />
+            <input type="text" name="Full name" id="fullName" />
+            <div class="form-error" id="fullNameError">
+              Please enter your full name
+            </div>
             <label for="Email">Email adress</label>
-            <input type="email" name="Email adress" id="Email adress" />
-          </div>
-          <div>
+            <input type="email" name="Email adress" id="email" />
+            <div class="form-error" id="emailError">
+              Please enter a valid email address
+            </div>
             <label for="Phone number">Phone number</label>
-            <input type="tel" name="Phone number" id="Phone number" />
+            <input type="tel" name="Phone number" id="number" />
+            <div class="form-error" id="numberError">
+              Please enter a valid phone number
+            </div>
             <label for="Message">Message</label>
-            <textarea type="text" value="Message" id="Message"></textarea>
+            <textarea type="text" value="Message" id="subject"></textarea>
+            <div class="form-error" id="subjectError">
+              Your message must be 10 characters or longer
+            </div>
           </div>
-          <input type="submit" value="Send Message" class="cta contact-cta" />
-        </section>
+          <button class="cta contact-cta" disabled>Send Message</button>
+          <div id="success-message"></div>
+        </div>
       </form>
+      <script src="js/contact.js"></script>
     </main>
     <footer>Copyright &copy;</footer>
   </body>

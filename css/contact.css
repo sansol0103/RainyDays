@@ -13,7 +13,6 @@ textarea {
 
 .form-wrapper > * {
   display: flex;
-  flex: 1;
   text-align: left;
   flex-direction: column;
 }
@@ -26,6 +25,7 @@ textarea {
 
 .fa-brands {
   font-size: 1.5em;
+  color: black;
 }
 
 .info img {
@@ -39,6 +39,10 @@ textarea {
   line-height: 0.2;
 }
 
+button {
+  cursor: pointer;
+}
+
 .contact-cta {
   font-family: "Roboto";
   font-size: 1.5rem;
@@ -49,9 +53,19 @@ textarea {
   text-transform: uppercase;
 }
 
+.contact-cta:disabled {
+  cursor: not-allowed;
+}
+
 .contact-cta:hover {
   background-color: #4ee05d;
   border: 2px solid #000;
+}
+
+@media (min-width: 400px) {
+  .box-style {
+    max-width: 280px;
+  }
 }
 
 @media (min-width: 600px) {
@@ -61,11 +75,6 @@ textarea {
 }
 
 @media (min-width: 800px) {
-  .contact {
-    display: flex;
-    flex-direction: row;
-  }
-
   .box-style,
   form {
     margin: auto;

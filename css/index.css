@@ -1,16 +1,7 @@
-.home-heading {
-  font-family: "Roboto";
-  font-weight: 300;
-  color: #0a3641;
-  font-size: 1.6rem;
-  padding-left: 10px;
-}
-
 .home-images-container {
   display: grid;
   grid-template-rows: 200px 1fr 1fr 1fr;
   margin: auto;
-  width: 100%;
 }
 
 .home-image-div {

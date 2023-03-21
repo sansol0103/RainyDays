@@ -73,13 +73,37 @@ main {
   background: #d9d9d9;
 }
 
+h1 {
+  font-family: "Roboto";
+  font-weight: 300;
+  color: #0a3641;
+  font-size: 1.6rem;
+}
 .box-style {
   font-family: "Roboto";
   margin: 20px auto;
   border-radius: 20px;
   background-color: #d9d9d9;
   text-align: left;
+}
+
+.box-width {
   width: 100%;
+}
+
+.form-error {
+  display: none;
+  color: red;
+  margin-top: 2px;
+}
+
+.success-message {
+  background: green;
+  padding: 1rem;
+  color: white;
+  border-radius: 1rem;
+  margin: 10px auto;
+  font-family: "Roboto";
 }
 
 .cta {
