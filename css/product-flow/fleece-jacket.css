@@ -1,37 +1,18 @@
-h2 {
-  font-weight: 400;
-}
-
 img {
   width: 200px;
   height: 200px;
 }
 
-.box-style a {
-  text-align: center;
-  padding: 8px 20px;
+.jacket {
+  padding-left: 20px;
+}
+
+.product-card a {
   font-size: 2rem;
   background-color: #767676;
-  border-radius: 10px;
-  display: inline-block;
   position: relative;
-  text-decoration: none;
-  color: black;
 }
 
-.box-style a:hover {
+.product-card a:hover {
   background-color: #4ee05d;
-}
-
-@media (min-width: 600px) {
-  .box-style {
-    max-width: 280px;
-  }
-}
-
-@media (min-width: 800px) {
-  .flex-container {
-    display: flex;
-    flex-direction: row;
-  }
 }
