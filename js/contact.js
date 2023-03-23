@@ -8,7 +8,10 @@ const phoneNumberError = document.querySelector("#numberError");
 const message = document.querySelector("#subject");
 const messageError = document.querySelector("#subjectError");
 const button = document.querySelector("button");
-const successMessage = document.querySelector("#success-message")
+const successMessage = document.querySelector("#success-message");
+const allError = document.querySelectorAll(".form-error");
+
+// console.log(allError);
 
 function validateForm(event) {
     event.preventDefault();
@@ -55,6 +58,7 @@ function validateForm(event) {
 //     formSubmit.preventDefault();
 //     successMessage.innerHTML = `<div class="success-message">Your message has been sent</div>`
 //     form.reset();
+//     allError.innerHTML = "";
 // }
 
 // form.addEventListener("submit", submitForm);

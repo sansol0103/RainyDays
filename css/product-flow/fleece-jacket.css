@@ -4,13 +4,23 @@ img {
 }
 
 .jacket {
-  padding-left: 20px;
+  text-align: center;
+}
+
+.product-card {
+  width: min-content;
+}
+
+.product-card p {
+  font-size: 1.2rem;
 }
 
 .product-card a {
   font-size: 2rem;
   background-color: #767676;
-  position: relative;
+  display: block;
+  width: 210px;
+  margin: auto;
 }
 
 .product-card a:hover {

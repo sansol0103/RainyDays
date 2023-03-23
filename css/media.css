@@ -23,7 +23,6 @@
   main {
     background: url(../images/jonathan-klok-NeRzxya_zyI-unsplash\(1\).webp);
     background-repeat: no-repeat;
-    min-height: 100vh;
   }
 
   .box-width {
@@ -49,11 +48,24 @@
     width: 200px;
     height: 200px;
   }
+
+  /*fleece-jacket.html*/
+
+  .product-card {
+    width: auto;
+  }
 }
 
 @media (min-width: 450px) {
   .fa-bars {
     font-size: 2rem;
+  }
+}
+
+@media (min-width: 500px) {
+  .info img {
+    width: 280px;
+    height: 280px;
   }
 }
 
@@ -75,6 +87,13 @@
 
   .product-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  /*contact.html*/
+
+  .contact-label,
+  .contact-input {
+    width: 300px;
   }
 }
 
@@ -152,10 +171,6 @@
 
   /*index.html*/
 
-  .h1-home {
-    grid-column: 1/4;
-  }
-
   .home-images-container {
     grid-template-rows: 100% 1fr;
     grid-template-columns: 1fr 1fr 1fr;
@@ -181,7 +196,14 @@
   /*fleece-jacket.html*/
 
   .jacket {
-    max-width: 500px;
+    max-width: 400px;
+  }
+
+  /*checkout.html*/
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
   }
 
   /*contact.html*/

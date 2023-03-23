@@ -90,10 +90,7 @@ img {
 }
 
 @media (min-width: 800px) {
-  .flex-container {
-    display: flex;
-    flex-direction: row;
-  }
+
 
   .box-style,
   .form-wrapper {

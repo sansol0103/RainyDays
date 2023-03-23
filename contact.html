@@ -19,8 +19,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/media.css" />
     <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/media.css" />
     <script
       src="https://kit.fontawesome.com/b318972c4d.js"
       crossorigin="anonymous"
@@ -62,55 +62,84 @@
         </ul>
       </nav>
     </header>
-    <main class="contact">
-      <div class="box-style info">
-        <div>
-          <p>+47 21 22 43 16</p>
-          <div class="close-paragraph">
-            <p>Sjøfartsgata 2</p>
-            <p>7714 Steinkjer</p>
+    <main>
+      <div class="box-style box-width">
+        <h1>Get in touch with us here!</h1>
+        <div class="box-style box-width contact">
+          <div class="box-style info contact-card">
+            <div>
+              <p>+47 21 22 43 16</p>
+              <div class="close-paragraph">
+                <p>Sjøfartsgata 2</p>
+                <p>7714 Steinkjer</p>
+              </div>
+              <p>support@rainydays.com</p>
+            </div>
+            <div class="icons">
+              <a href="https://instagram.com"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://facebook.com"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </div>
+            <img src="images/map.png" alt="Location map" />
           </div>
-          <p>support@rainydays.com</p>
+          <form method="post">
+            <div class="box-style form-wrapper contact-card">
+              <div>
+                <label for="Full name" class="contact-label">Full name</label>
+                <input
+                  type="text"
+                  name="Full name"
+                  id="fullName"
+                  class="contact-input"
+                />
+                <div class="form-error" id="fullNameError">
+                  Please enter your full name
+                </div>
+                <label for="Email" class="contact-label">Email adress</label>
+                <input
+                  type="email"
+                  name="Email adress"
+                  id="email"
+                  class="contact-input"
+                />
+                <div class="form-error" id="emailError">
+                  Please enter a valid email address
+                </div>
+                <label for="Phone number" class="contact-label"
+                  >Phone number</label
+                >
+                <input
+                  type="tel"
+                  name="Phone number"
+                  id="number"
+                  class="contact-input"
+                />
+                <div class="form-error" id="numberError">
+                  Please enter a valid phone number
+                </div>
+                <label for="Message" class="contact-label">Message</label>
+                <textarea
+                  type="text"
+                  value="Message"
+                  id="subject"
+                  class="contact-input"
+                ></textarea>
+                <div class="form-error" id="subjectError">
+                  Your message must be 10 characters or longer
+                </div>
+              </div>
+              <button class="cta contact-cta">Send Message</button>
+              <div id="success-message"></div>
+            </div>
+          </form>
         </div>
-        <div class="icons">
-          <a href="https://instagram.com"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-          <a href="https://facebook.com"
-            ><i class="fa-brands fa-facebook"></i
-          ></a>
-          <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
-        </div>
-        <img src="images/map.png" alt="Location map" />
       </div>
-      <form method="post">
-        <div class="box-style form-wrapper">
-          <div>
-            <label for="Full name">Full name</label>
-            <input type="text" name="Full name" id="fullName" />
-            <div class="form-error" id="fullNameError">
-              Please enter your full name
-            </div>
-            <label for="Email">Email adress</label>
-            <input type="email" name="Email adress" id="email" />
-            <div class="form-error" id="emailError">
-              Please enter a valid email address
-            </div>
-            <label for="Phone number">Phone number</label>
-            <input type="tel" name="Phone number" id="number" />
-            <div class="form-error" id="numberError">
-              Please enter a valid phone number
-            </div>
-            <label for="Message">Message</label>
-            <textarea type="text" value="Message" id="subject"></textarea>
-            <div class="form-error" id="subjectError">
-              Your message must be 10 characters or longer
-            </div>
-          </div>
-          <button class="cta contact-cta" disabled>Send Message</button>
-          <div id="success-message"></div>
-        </div>
-      </form>
       <script src="js/contact.js"></script>
     </main>
     <footer>Copyright &copy;</footer>
