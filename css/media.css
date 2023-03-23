@@ -209,7 +209,8 @@
   /*contact.html*/
 
   .contact {
-    display: flex;
     flex-direction: row;
+    margin-left: 0px;
+    margin-top: auto;
   }
 }

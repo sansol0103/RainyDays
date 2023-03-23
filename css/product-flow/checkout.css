@@ -82,20 +82,3 @@ img {
 .div-style {
   max-height: 600px;
 }
-
-@media (min-width: 600px) {
-  .box-style {
-    max-width: 280px;
-  }
-}
-
-@media (min-width: 800px) {
-
-
-  .box-style,
-  .form-wrapper {
-    min-width: 320px;
-    min-height: 450px;
-    margin: 20px auto;
-  }
-}
