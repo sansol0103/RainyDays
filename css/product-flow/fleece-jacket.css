@@ -4,7 +4,8 @@ img {
 }
 
 .jacket {
-  text-align: center;
+  margin: auto;
+  width: fit-content;
 }
 
 .product-card {

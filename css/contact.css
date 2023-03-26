@@ -53,10 +53,6 @@ label {
   line-height: 0.2;
 }
 
-button {
-  cursor: pointer;
-}
-
 .contact-cta {
   font-family: "Roboto";
   font-size: 1.5rem;

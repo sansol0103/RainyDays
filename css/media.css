@@ -54,6 +54,12 @@
   .product-card {
     width: auto;
   }
+
+  /*checkout.html*/
+
+  .container {
+    width: 100%;
+  }
 }
 
 @media (min-width: 450px) {
@@ -66,6 +72,12 @@
   .info img {
     width: 280px;
     height: 280px;
+  }
+
+  /*checkout.html*/
+
+  .info {
+    width: 300px;
   }
 }
 

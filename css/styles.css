@@ -108,6 +108,10 @@ h1 {
   font-family: "Roboto";
 }
 
+button {
+  cursor: pointer;
+}
+
 .cta {
   text-decoration: none;
   padding: 8px 20px;

@@ -22,8 +22,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="stylesheet" href="../css/media.css" />
     <link rel="stylesheet" href="../css/product-flow/checkout.css" />
+    <link rel="stylesheet" href="../css/media.css" />
     <script
       src="https://kit.fontawesome.com/b318972c4d.js"
       crossorigin="anonymous"
@@ -66,29 +66,13 @@
         <a href="../product-flow/fleece-jacket.html"
           ><i class="fa-solid fa-circle-left"></i
         ></a>
-        <div class="box-style">
+        <div class="container">
           <h1>Order summary</h1>
           <p>Rainy Days Fleece Jacket</p>
           <img
             src="../images/RainyDays_Jacket7.webp"
             alt="Rainy Days Fleece Jacket"
           />
-          <!-- <div>
-          <p>Ammount</p>
-          <p class="ammount">1</p>
-          <div class="line"></div>
-          <div class="selector">
-            <i class="fa-solid fa-arrow-up"></i>
-            <i class="fa-solid fa-arrow-down"></i>
-          </div>
-        </div>
-        <p>Sizes</p>
-        <div class="sizes-wrapper">
-          <p class="sizes">S</p>
-          <p class="sizes">M</p>
-          <p class="sizes sizes-black">L</p>
-          <p class="sizes">XL</p>
-        </div> -->
           <div class="info">
             <p>
               On this purchase you will get a 500 kr discount and will only pay
@@ -96,28 +80,48 @@
             </p>
           </div>
         </div>
-        <div class="form-wrapper">
+        <div class="container form-wrapper">
           <form>
             <label for="Full name">Full name</label>
-            <input type="text" name="Full name" id="Full-name" />
+            <input type="text" name="Full name" id="fullName" />
+            <div class="form-error" id="fullNameError">
+              Please enter your full name
+            </div>
             <label for="Email">Email adress</label>
-            <input type="email" name="Email adress" id="Email-adress" /><label
-              for="Deivery adress"
-              >Delivery adress</label
-            >
-            <input type="text" name="Deivery adress" id="Deivery-adress" />
+            <input type="email" name="Email adress" id="email" />
+            <div class="form-error" id="emailError">
+              Please enter a valid email address
+            </div>
+            <label for="Deivery adress">Delivery adress</label>
+            <input type="text" name="Deivery address" id="address" />
+            <div class="form-error" id="addressError">
+              Please enter a valid delivery address
+            </div>
             <label for="Postal code/ZIP">Postal code/ZIP</label>
-            <input type="number" name="Postal code/ZIP" id="Postal-code/ZIP" />
+            <input type="number" name="Postal code/ZIP" id="postalCode" />
+            <div class="form-error" id="postalCodeError">
+              Please enter a valid postal code/ZIP
+            </div>
             <label for="Card holder">Card holder</label>
-            <input type="text" name="Card holder" id="Card-holder" />
+            <input type="text" name="Card holder" id="cardHolder" />
+            <div class="form-error" id="cardHolderError">
+              Please enter the holder of this card
+            </div>
             <label for="Card number">Card number</label>
-            <input type="number" name="Card number" id="Card-number" />
+            <input type="number" name="Card number" id="cardNumber" />
+            <div class="form-error" id="cardNumberError">
+              Please enter a valid card number
+            </div>
             <label for="Expiry date">Expiry date</label>
-            <input type="number" name="Expiry date" id="Expiry-date" />
+            <input type="number" name="Expiry date" id="expiryDate" />
+            <div class="form-error" id="expiryDateError">
+              Please enter the expiry date of the card
+            </div>
             <label for="CVC">CVC</label>
-            <input type="number" name="CVC" id="CVC" />
+            <input type="number" name="CVC" id="cvc" />
+            <div class="form-error" id="cvcError">Please enter a valid cvc</div>
+            <a href="success.html" class="cta checkout-cta">Purchase now!</a>
           </form>
-          <a href="../product-flow/success.html" class="cta">Purchase now!</a>
         </div>
       </div>
     </main>
