@@ -1,30 +1,21 @@
-div img {
-  position: relative;
-  max-width: 180px;
-  max-height: 180px;
-}
-
 .product-grid {
   display: grid;
   grid-template-columns: 1fr;
   font-size: 1.2rem;
 }
 
-.old-price {
-  text-decoration: line-through;
+.product {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
 
-p {
-  overflow-wrap: break-word;
+h2 {
+  font-size: 1.1rem;
+  font-weight: 300;
 }
 
-.product-card a {
-  padding: 8px 30px;
-  background-color: #c2c2c2;
-  border: 2px solid #000;
-  margin: 10px;
-}
-
-.product-card a:hover {
-  background-color: #4ee05d;
+.product img {
+  max-width: 180px;
+  max-height: 180px;
 }
