@@ -4,6 +4,12 @@
   margin: auto;
 }
 
+.featured-products {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: auto;
+}
+
 .home-image-div {
   text-align: center;
   padding: 25px;

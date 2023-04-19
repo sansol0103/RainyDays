@@ -2,9 +2,10 @@
 const apiBase = "http://rainydays.local";
 const woocomBase = "/wp-json/wc/store";
 const productBase = "/products";
+const featuredBase = "?featured=true";
 
 // Full URL
-const fullURL = apiBase + woocomBase + productBase;
+const fullURL = apiBase + woocomBase + productBase + featuredBase;
 
 // Fetch
 async function getProducts() {
@@ -19,16 +20,16 @@ console.log(getProducts());
 
 // Create HTML
 function createProductHTML(product) {
-    const container = document.querySelector(".product-grid");
+    const container = document.querySelector(".featured-products");
 
     const productContainer = document.createElement("a");
     productContainer.href = "product-flow/details.html?id=" + product.id;
     productContainer.classList.add("product");
     productContainer.id = product.id;
 
-    const title = document.createElement("h2");
-    title.innerText = product.name;
-    productContainer.append(title);
+    const description = document.createElement("h2");
+    description.innerText = product.name;
+    productContainer.append(description);
 
     for (let i = 0; i < product.images.length; i++) {
         const imgData = product.images[i];

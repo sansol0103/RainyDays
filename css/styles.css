@@ -74,7 +74,8 @@ main {
   min-height: 100vh;
 }
 
-h1 {
+h1,
+.featured-title {
   font-family: "Roboto";
   font-weight: 300;
   color: #0a3641;

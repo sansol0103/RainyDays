@@ -17,7 +17,7 @@ async function getJacket() {
 getJacket();
 
 function createProductHTML(product) {
-    const container = document.querySelector(".container");
+    const container = document.querySelector(".product-card");
 
     for (let i = 0; i < product.images.length; i++) {
         const imgData = product.images[i];
@@ -27,14 +27,24 @@ function createProductHTML(product) {
         container.append(img);
     }
 
-    const title = document.createElement("h2");
-    title.innerText = product.name;
-    container.append(title);
+    const description = document.createElement("h2");
+    description.innerText = product.name;
+    container.append(description);
 
     const price = document.createElement("p");
     price.classList.add("price");
     price.innerText = product.prices.price /100 + " kr";
     container.append(price);
+
+    const button = document.createElement("a");
+    button.href = "checkout.html?id=" + product.id;
+    button.classList.add("cta");
+    button.innerText = "Purchase now";
+    container.append(button);
+
+    title.innerText = product.name;
+
+    console.log(title);
 }
 
 async function main() {

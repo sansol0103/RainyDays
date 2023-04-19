@@ -57,6 +57,7 @@
 
   /*checkout.html*/
 
+  .form,
   .container {
     width: 100%;
   }
@@ -168,7 +169,8 @@
   /*main*/
 
   .h1-home,
-  .h1-jackets {
+  .h1-jackets,
+  .featured-title {
     grid-column: 1/4;
   }
 
@@ -183,7 +185,8 @@
 
   /*index.html*/
 
-  .home-images-container {
+  .home-images-container,
+  .featured-products {
     grid-template-rows: 100% 1fr;
     grid-template-columns: 1fr 1fr 1fr;
   }
