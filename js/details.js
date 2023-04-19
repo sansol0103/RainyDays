@@ -27,14 +27,18 @@ function createProductHTML(product) {
         container.append(img);
     }
 
-    const description = document.createElement("h2");
-    description.innerText = product.name;
-    container.append(description);
+    const name = document.createElement("h2");
+    name.innerText = product.name;
+    container.append(name);
 
     const price = document.createElement("p");
     price.classList.add("price");
     price.innerText = product.prices.price /100 + " kr";
     container.append(price);
+
+    // const description = document.createElement("p");
+    // description.innerText = product.description;
+    // container.append(description);
 
     const button = document.createElement("a");
     button.href = "checkout.html?id=" + product.id;

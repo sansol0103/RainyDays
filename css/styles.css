@@ -132,3 +132,10 @@ button {
   color: black;
   padding: 5px 10px;
 }
+
+.price {
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-decoration: none;
+  color: black;
+}

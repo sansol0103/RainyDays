@@ -39,6 +39,11 @@ function createProductHTML(product) {
         productContainer.append(img);
     }
 
+    const price = document.createElement("p");
+    price.classList.add("price");
+    price.innerText = product.prices.price /100 + " kr";
+    productContainer.append(price);
+
     container.append(productContainer);
 }
 
